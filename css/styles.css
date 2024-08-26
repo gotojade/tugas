@@ -35,19 +35,21 @@ nav
     background-position: center;
 }
 
-.profile-item {
-    height: 180px;
-}
-
-.gambar-icon-profile {
-    border: 1px solid;
-    height: 180px;
-    background-image: url(https://www.qoala.app/id/blog/wp-content/uploads/2021/01/Agen-Asuransi-Pengertian-Tugas-Cara-hingga-Penghasilan.jpg);
-    background-size: cover;
-    background-position: center;
-}
-
-.letak-icon {
+.profile-container{
     display: flex;
     justify-content: space-around;
+}
+
+.profile-item {
+    height: 180px;
+    text-align: -webkit-center;
+}
+
+.profile-img {
+    height: 100px;
+    background-image: url(https://www.sinarmas.co.id/property/12298327/promo-17-2024.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50px;
+    width: 100px
 }
