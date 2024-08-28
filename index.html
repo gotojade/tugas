@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>RevoU GO TUK GIOK</title>
     <link rel="stylesheet" href="css/styles.css">
 
 </head>
@@ -32,7 +32,7 @@
             <header>
                 <h1>Welcome User, to our website </h1>
             </header>
-            <h3><p>Untuk pembelian produk-produk Asuransi berikut melalui website <a href="https://www.sinarmas.co.id">https://www.sinarmas.co.id</a> atau aplikasi Asuransi Sinar Mas Online di <a href="https://play.google.com/store/search?q=asuransi%20sinar%20mas%20online&c=apps">Google Play</a></h3></p>
+            <h3><p>Untuk pembelian produk-produk Asuransi berikut melalui website <a href="https://www.sinarmas.co.id" target="_blank">https://www.sinarmas.co.id</a> atau aplikasi Asuransi Sinar Mas Online di <a href="https://play.google.com/store/search?q=asuransi%20sinar%20mas%20online&c=apps" target="_blank">Google Play</a></h3></p>
             <div class="banner"></div>
         </article>
         
@@ -41,45 +41,84 @@
         <!-- BAGIAN DIVISI -->
         <section>
             <header>
-                <h1>Our Divisions</h1>
+                <h1>Our Division</h1>
             </header>
 
-            <section class="profile-container">
+           <section class="profile-container">
                 <div class="profile-item">
-                    <div class="profile-img1">
-                    </div>
+                    <div class="profile-img1"></div>
                     <h2>Marketing</h2>
                 </div>
 
-                <div class="profile-item2">
+                <div class="profile-item">
                     <div class="profile-img2"></div>
-                    </div>
                     <h2>Claim</h2>
                 </div>
-
+                
                 <div class="profile-item">
                     <div class="profile-img3"></div>
-                    </div>
                     <h2>Customer Service</h2>
                 </div>
-
             </section>
+
         </section>
+
+<br>
+
+<hr/>
+
+
+<!-- bagian kolom -->
 
 
         <section>
-            <form>
+            <header>
+                <h1>Message Us</h1>
+            </header>
 
-            </form>
 
-                <div></div>
+                <div class="container">
+                    <div class="form-container">
+                        <form id="contactForm">
+                            <label for="name">Nama:</label>
+                            <input type="text" id="name" name="name" required>
+            
+                            <label for="dob">Tanggal Lahir:</label>
+                            <input type="date" id="dob" name="dob" required>
+            
+                            <label>Jenis Kelamin:</label>
+                            <label><input type="radio" name="gender" value="Laki-Laki" required> Laki-Laki</label>
+                            <label><input type="radio" name="gender" value="Perempuan" required> Perempuan</label>
+            
+                            <label for="message">Pesan:</label>
+                            <textarea id="message" name="message" required></textarea>
+            
+                            <button type="submit">Submit</button>
+                        </form>
+                    </div>
+
+<!-- bagian isi -->
+                    <div class="output-container">
+                        <h2>Form Output</h2>
+                        <p id="currentTime"></p>
+                        <p id="outputName"></p>
+                        <p id="outputDob"></p>
+                        <p id="outputGender"></p>
+                        <p id="outputMessage"></p>
+                    </div>
+                </div>
+            
+                <script src="script.js"></script>
+
+                
         </section>
             
     </main>
 
+
     <Footer>
-
-
+<hr/>
+<h3>made by Go Tuk Giok</h3>
     </Footer>
 
 
