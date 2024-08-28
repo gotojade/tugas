@@ -6,6 +6,7 @@ nav
         justify-content: space-between;
     }
 
+/* bagian logo */
 .logo-atas {
     height: 70px;
     width: 254px;
@@ -15,9 +16,11 @@ nav
     border-radius: 10px;
 }
 
+/* bagian tombol atas */
 .semua-tombol-nav {
     display: flex;
 }
+
 .tombol-nav {
     border: 1px solid;
     color: black;
@@ -28,6 +31,7 @@ nav
     border-radius: 50px;
 }
 
+/* bagian banner */
 .banner {    
     height: 500px;
     background-image: url(https://www.sinarmas.co.id/property/12298327/promo-17-2024.jpg);
@@ -41,14 +45,37 @@ nav
 }
 
 .profile-item {
-    height: 180px;
+border: 1px black;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
     text-align: -webkit-center;
+    align-items: center;
 }
 
-.profile-img {
+/* icon divisi */
+.profile-img1 {
+    background-image: url(asset/icon1.jpg);
     height: 200px;
     background-size: cover;
+    border-radius: 50%;
+    width: 200px;
     background-position: center;
-    border-radius: 50px;
-    width: 200px
 }
+
+.profile-img2 {
+    background-image: url(asset/icon2.jpg);
+    height: 200px;
+    background-size: cover;
+    border-radius: 50%;
+    width: 200px;
+    background-position: center;
+}
+
+.profile-img3 {
+    background-image: url(asset/icon3.jpg);
+    height: 200px;
+    background-size: cover;
+    border-radius: 50%;
+    width: 200px;
+    background-position: center;
