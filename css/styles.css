@@ -19,6 +19,7 @@ nav
 /* bagian tombol atas */
 .semua-tombol-nav {
     display: flex;
+    
 }
 
 .tombol-nav {
@@ -29,15 +30,36 @@ nav
     font-weight: bold;
     padding: 7px;
     border-radius: 50px;
+    width: 100px;
+    text-align-last: center;
 }
+
+
 
 /* bagian banner */
 .banner {    
     height: 300px;
-    background-image: url(https://www.sinarmas.co.id/property/12298327/promo-17-2024.jpg);
     background-size: cover;
     background-position: center;
 }
+
+.banner1{
+    background-image: url(https://www.sinarmas.co.id/storage/gambar/images/upload/f2575ec3e4665f7a24bf5e28f1e0dd96.jpg);
+}
+
+.banner4{
+    background-image: url(https://www.sinarmas.co.id/property/12285125/main-banner-promo-17-agustus-mobil-exclusive-desktop.jpg);
+}
+
+.banner3{
+    background-image: url(https://www.sinarmas.co.id/property/12279467/main-banner-promo-17-agustus-rumah-hemat-desktop.jpg);
+}
+
+.banner2{
+    background-image: url(https://www.sinarmas.co.id/property/12281353/main-banner-promo-17-agustus-simas-motor-desktop.jpg);
+}
+
+
 
 /* icon divisi */
 .profile-container {
@@ -45,35 +67,35 @@ nav
     justify-content: space-around;
 }
 .profile-item {
-    height: 200px;
+    height: 150px;
     text-align: -webkit-center;
 }
 
 .profile-img1 {
-    height: 100px;
+    height: 80px;
     background-image:url(https://www.etiqa.co.id/media/k3qfzttz/produck-icon-asuransi-kesehatan.png);
     background-size: cover;
     background-position: center;
-    border-radius: 20%;
+    border-radius: 30%;
     width: 100px;
 }
 
 .profile-img2 {
-    height: 100px;
+    height: 80px;
     background-image:url(https://www.shutterstock.com/image-vector/insurance-policy-icon-260nw-606142694.jpg);
     background-size: cover;
     background-position: center;
-    border-radius: 20%;
-    width: 140px;
+    border-radius: 30%;
+    width: 110px;
 }
 
 .profile-img3 {
-    height: 100px;
+    height: 80px;
     background-image:url(https://cdn-icons-png.flaticon.com/256/950/950299.png);
     background-size: cover;
     background-position: center;
-    border-radius: 20%;
-    width: 100px;
+    border-radius: 30%;
+    width: 80px;
 }
 
 /* Bagian form dan isinya */
@@ -87,8 +109,10 @@ nav
     width: 40%;
     padding: 20px;
     background-color: #fff;
-    border: 1px solid #ddd;
-    border-radius: 5px;
+    border: 1px solid hsl(0, 0%, 21%);
+    border-radius: 15px;
+    font-weight: bold;
+    
 }
 
 
@@ -122,7 +146,7 @@ button {
 }
 
 button:hover {
-    background-color: #218838;
+    background-color: #331ac0;
 }
 
 .output-container p {
