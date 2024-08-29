@@ -2,6 +2,27 @@
 let name = prompt ("Hai, dengan siapa ini?","");
 document.getElementById("nametamu").innerText=name
 
+// untuk banner slide
+
+let slideIndex = 1;
+showSlides(1);
+
+function plusSlides(n) {
+    slideIndex += n;
+    showSlides();
+}
+
+function showSlides() {
+    const slides = document.getElementsByClassName("slidebanner");
+    if (slideIndex >= slides.length) { slideIndex = 0; }
+    if (slideIndex < 0) { slideIndex = slides.length - 1; }
+
+    for (let i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+    }
+
+    slides[slideIndex].style.display = "block";  
+}
 
 // Untuk tabel dan isian
 document.getElementById('contactForm').addEventListener('submit', function(event) {
@@ -26,24 +47,3 @@ document.getElementById('contactForm').addEventListener('submit', function(event
     document.getElementById('outputMessage').textContent = `Pesan : ${message}`;
 });
 
-// untuk banner slide
-
-let slideIndex = 1;
-showSlides(1);
-
-function plusSlides(n) {
-    slideIndex += n;
-    showSlides();
-}
-
-function showSlides() {
-    const slides = document.getElementsByClassName("slidebanner");
-    if (slideIndex >= slides.length) { slideIndex = 0; }
-    if (slideIndex < 0) { slideIndex = slides.length - 1; }
-
-    for (let i = 0; i < slides.length; i++) {
-        slides[i].style.display = "none";  
-    }
-
-    slides[slideIndex].style.display = "block";  
-}
