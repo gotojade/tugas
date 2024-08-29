@@ -27,22 +27,23 @@ document.getElementById('contactForm').addEventListener('submit', function(event
 });
 
 // untuk banner slide
-let indexSlide=1;
-showBanner(1);
 
-function nextSlide(n) {
+let slideIndex = 1;
+showSlides(1);
 
+function plusSlides(n) {
+    slideIndex += n;
+    showSlides();
 }
 
-function showBanner(indexBanner){
-    let listImage=document.getElementsByClassName('banner banner');
-    let index = 0;
-    while (index < listImage) {
-        listImage [index].style.display='none';
-        index++;
+function showSlides() {
+    const slides = document.getElementsByClassName("slidebanner");
+    if (slideIndex >= slides.length) { slideIndex = 0; }
+    if (slideIndex < 0) { slideIndex = slides.length - 1; }
 
+    for (let i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
     }
 
-    listImage[indexBanner=-1].style.display='block'
-    console.log(listImage);
+    slides[slideIndex].style.display = "block";  
 }

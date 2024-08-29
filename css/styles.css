@@ -20,7 +20,6 @@ nav
 /* bagian tombol atas */
 .semua-tombol-nav {
     display: flex;
-    
 }
 
 .tombol-nav {
@@ -33,21 +32,23 @@ nav
     border-radius: 50px;
     width: 100px;
     text-align-last: center;
-}
-
-@media only screen and (max-width : 600px) {
-.logoutama {
     flex-direction: column;
 }
 
+@media only screen and (max-width : 600px) {
+nav {
+    flex-direction: column;
+    width: 100%;
 }
 
+}
+/* 
 @media only screen and (max-width : 600px) {
 .semua-tombol-nav {
         flex-direction: column;
     }
     
-    }
+    } */
 
 /* bagian banner */
 .banner {    
@@ -56,20 +57,18 @@ nav
     background-position: center;
 }
 
-.banner1{
-    background-image: url(https://www.sinarmas.co.id/storage/gambar/images/upload/f2575ec3e4665f7a24bf5e28f1e0dd96.jpg);
+.slideshow-container {
+    position: relative;
+    max-width: 100%;
+    margin: auto;
 }
 
-.banner4{
-    background-image: url(https://www.sinarmas.co.id/property/12285125/main-banner-promo-17-agustus-mobil-exclusive-desktop.jpg);
+.slidebanner {
+    display: none;
 }
 
-.banner3{
-    background-image: url(https://www.sinarmas.co.id/property/12279467/main-banner-promo-17-agustus-rumah-hemat-desktop.jpg);
-}
-
-.banner2{
-    background-image: url(https://www.sinarmas.co.id/property/12281353/main-banner-promo-17-agustus-simas-motor-desktop.jpg);
+img {
+    width: 100%;
 }
 
 
