@@ -34,7 +34,19 @@ nav
     text-align-last: center;
 }
 
+@media only screen and (max-width : 600px) {
+.navigasi {
+    flex-direction: column;
+}
 
+}
+
+@media only screen and (max-width : 600px) {
+.semua-tombol-nav {
+        flex-direction: column;
+    }
+    
+    }
 
 /* bagian banner */
 .banner {    
