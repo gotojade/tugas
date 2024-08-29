@@ -14,6 +14,7 @@ nav
     background-image: url(https://www.sinarmas.co.id/images/logo_sinarmas.png);
     background-size: cover;
     border-radius: 10px;
+    display: flex;
 }
 
 /* bagian tombol atas */
@@ -35,7 +36,7 @@ nav
 }
 
 @media only screen and (max-width : 600px) {
-.navigasi {
+.logoutama {
     flex-direction: column;
 }
 
@@ -134,7 +135,8 @@ label {
 }
 
 input[type="text"],
-input[type="date"],
+input[type="number"],
+input[type="email"],
 textarea {
     width: 98%;
     padding: 10px;

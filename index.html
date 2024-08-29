@@ -13,15 +13,13 @@
 
 <!-- bagian navigasi atas -->
     <nav>
-        <header>
+        <section>
             <div class="logo-atas"></div>
-            
-        </header>
+        </section>
 
         <section class="semua-tombol-nav">
             <a href="Home" class="tombol-nav">Home</a>
             <a href="Division" class="tombol-nav">Our Division</a>
-            <a href="Achivement" class="tombol-nav">Achivement</a>
             <a href="Meesage Us" class="tombol-nav">Meesage Us</a>
         </section>
     </nav>
@@ -34,8 +32,8 @@
                 <h1>Welcome <span id = "nametamu">Guest</span>, to our website </h1>
             </header>
             <h3><p>Untuk pembelian produk-produk Asuransi lainnya dapat melalui website <a href="https://www.sinarmas.co.id" target="_blank">https://www.sinarmas.co.id</a> atau aplikasi Asuransi Sinar Mas Online di <a href="https://play.google.com/store/search?q=asuransi%20sinar%20mas%20online&c=apps" target="_blank">Google Play</a></h3></p>
-            <div class="banner banner1"></div>
-            <div class="banner banner2"></div>
+            <div class="banner"></div>
+            <div class="banner"></div>
             <div class="banner banner3"></div>
             <div class="banner banner4"></div>
         </article>
@@ -82,15 +80,14 @@
                 <div class="container">
                     <div class="form-container">
                         <form id="contactForm">
-                            <label for="name">Nama:</label>
+                            <label for="name">Nama :</label>
                             <input type="text" placeholder="Nama Anda" id="name" name="name" required>
             
-                            <label for="dob">Tanggal Lahir:</label>
-                            <input type="date" id="dob" name="dob" required>
+                            <label for="email">Email :</label>
+                            <input type="email" placeholder="Email anda" id="email" name="email" required>
             
-                            <label>Jenis Kelamin:</label>
-                            <label><input type="radio" name="gender" value="Laki-Laki" required> Laki-Laki</label>
-                            <label><input type="radio" name="gender" value="Perempuan" required> Perempuan</label>
+                            <label for="phone">Phone :</label>
+                            <input type="number" placeholder="Nomor telepon/HP" id="phone" name="phone" required>
             
                             <label for="message">Pesan:</label>
                             <textarea id="message" placeholder="Pesan yang ingin disampaikan"  name="message" required></textarea>
@@ -103,8 +100,8 @@
                     <div class="output-container">
                         <p id="currentTime"></p>
                         <p id="outputName"></p>
-                        <p id="outputDob"></p>
-                        <p id="outputGender"></p>
+                        <p id="outputemail"></p>
+                        <p id="outputphone"></p>
                         <p id="outputMessage"></p>
                     </div>
                 </div>
